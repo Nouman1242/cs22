@@ -2,13 +2,10 @@
 using namespace std;
 main()
 {
-int marks;
-int days;
-cout<<"Enter Integer:";
-cin>>marks;
-cout<<"Enter Integer:";
-cin>>days;
-int sum;
-sum= marks+days;
-cout<<"Sum:"<<sum;
+int pounds;
+int kilogram;
+cout<<"Enter weight in pounds(lbs):";
+cin>>pounds;
+kilogram = pounds/0.45;
+cout<< "Weight in KGs:"<<kilogram;
 }

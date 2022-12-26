@@ -2,10 +2,10 @@
 using namespace std;
 main()
 {
-cout<<"*"<<endl;
-cout<<"**"<<endl;
-cout<<"***"<<endl;
-cout<<"****"<<endl;
-cout<<"*****"<<endl;
-cout<<"******"<<endl;
-}
+int dollar;
+cout<<"Enter dollar($):";
+cin>> dollar;
+int rupees;
+rupees= dollar * 230;
+cout<<"Rs:"<<rupees;
+} 
